@@ -10,6 +10,6 @@ import { UsersService } from './users.service';
   ],
   providers: [UsersService],
   controllers: [UsersController],
-  exports: [UsersService], // So AuthService can use it
+  exports: [UsersService], 
 })
 export class UsersModule {}
